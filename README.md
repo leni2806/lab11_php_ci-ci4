@@ -1572,11 +1572,11 @@ Menambahkan event listener untuk menangkap interaksi pengguna pada kolom kata ku
 Tampilan Navigasi Halaman dan Filter Pencarian AJAX
 Halaman manajemen admin menunjukkan proses pencarian kata kunci, penyaringan kategori, dan perpindahan nomor halaman (pagination) yang berlangsung secara instan dan seamless tanpa mengalami refresh halaman penuh.
 
-<img src="img/prak9(1).png" width="450">
+<img src="img/prak9 (1).png" width="450">
 
-<img src="img/prak9(1).png" width="450">
+<img src="img/prak9 (2).png" width="450">
 
-<img src="img/prak9(1).png" width="450">
+<img src="img/prak9 (3).png" width="450">
 
 ### 📝 Jawaban Pertanyaan & Tugas Mandiri
 🟢 Penambahan Indikator Loading (Soal No. 3)
