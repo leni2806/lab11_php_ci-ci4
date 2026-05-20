@@ -1311,12 +1311,7 @@ public function getArtikelDenganKategori()
 }
 ```
 
-### 5. Sinkronisasi Controller Artikel dan Pembaruan Elemen View
-
-a. Controller (app/Controllers/Artikel.php): Pada method admin_index(), query pemanggilan data dialihkan ke method getArtikelDenganKategori(). Pada method add() dan edit(), data kategori di-load menggunakan KategoriModel lalu dilempar ke View.  
-b. View (app/Views/artikel/form_add.php & form_edit.php): Menambahkan elemen dropdown <select> HTML interaktif agar admin dapat memilih kategori artikel yang tersedia secara dinamis melalui data database.
-
-## 📸 Dokumentasi Praktikum 6
+### 📸 Dokumentasi Praktikum 6
 
 Tampilan Halaman Admin dengan Kolom Kategori
 Menampilkan tabel daftar artikel pada dashboard admin yang kini telah dilengkapi dengan kolom nama kategori hasil gabungan (Join) tabel.
@@ -1326,15 +1321,11 @@ Menampilkan tabel daftar artikel pada dashboard admin yang kini telah dilengkapi
 tambah
 <img src="img/kategori1.png" width="450">
 
-## 📝 Jawaban Pertanyaan & Tugas Mandiri 6Modifikasi Tampilan Detail Artikel (artikel/detail.php):
+### 📝 Jawaban Pertanyaan & Tugas Mandiri 6Modifikasi Tampilan Detail Artikel (artikel/detail.php):
 
 Tampilan detail artikel pada halaman publik telah dimodifikasi dengan memanggil variabel <?= $artikel['nama_kategori']; ?> di bawah elemen judul artikel untuk menginformasikan klasifikasi kategori kepada pembaca.  Fitur Menampilkan Artikel Berdasarkan Kategori:
 Menambahkan method khusus pada controller publik untuk menangkap parameter id_kategori dari URL, kemudian melakukan filtering data artikel menggunakan query kustom $model->where('id_kategori', $id) sebelum dirender ke halaman user.  
 
-## Praktikum 7: Upload File Gambar
-Tujuan
-
-Mahasiswa mampu memahami konsep dasar penanganan berkas (File Handling) dan unggah file (File Upload) pada aplikasi berbasis web.  Mahasiswa mampu mengimplementasikan proses validasi, pemindahan, dan penyimpanan nama berkas gambar menggunakan Framework CodeIgniter 4.  Mahasiswa mampu mengonfigurasi form HTML agar mendukung pengiriman data biner media. 
 
 # Praktikum 7: Upload File Gambar (CodeIgniter 4)
 
