@@ -544,7 +544,7 @@ Kemudian ubah file app/view/about.php
 ```
 Selanjutnya refresh tampilan pada alamat http://localhost:8080/about 
 
-<img src="img/16.png" width="450"> 
+<img src="img/aboout.png" width="450"> 
 
 # Praktikum 2: Framework Lanjutan (CRUD)
 
