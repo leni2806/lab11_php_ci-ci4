@@ -28,7 +28,7 @@ Perintah yang dapat dijalankan untuk memanggil CLI Codeigniter adalah:
 php spark
 ```
 
-<img src="img/3.png" width="450">
+<img src="img/spark.png" width="450">
 
 ### Mengaktifkan Mode Debugging
 Codeigniter 4 menyediakan fitur debugging untuk memudahkan developer untuk mengetahui pesan error apabila terjadi kesalahan dalam membuat kode program. 
@@ -38,7 +38,7 @@ Secara default fitur ini belum aktif. Ketika terjadi error pada aplikasi akan di
 
 Ubah nama file env menjadi .env kemudian buka file tersebut dan ubah nilai variable CI_ENVIRINMENT menjadi development. 
 
-<img src="img/5.png" width="450">
+<img src="img/env.png" width="450">
 
 
 ### Struktur Direktori
